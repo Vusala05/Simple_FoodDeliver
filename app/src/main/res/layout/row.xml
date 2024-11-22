@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="48dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="9dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/card">
+    <ImageView
+        android:id="@+id/recyclerTextImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:src="@drawable/sandivic"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todoo" />
+    <TextView
+        android:id="@+id/yemek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burger"
+        android:textColor="#686F82"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="7dp"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="170dp"
+    android:layout_height="260dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/card">
+
+    <ImageView
+        android:id="@+id/fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fried"
+        android:paddingStart="11dp"
+        android:paddingTop="11dp"
+        android:contentDescription="@string/d"
+        tools:ignore="RtlSymmetry" />
+    <TextView
+        android:id="@+id/fried"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fried_shrimps"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingTop="160dp"
+        android:paddingStart="40dp"
+        tools:ignore="RtlSymmetry" />
+    <ImageView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/time_num"
+        android:paddingTop="190dp"
+        android:paddingStart="22dp"
+        tools:ignore="RtlSymmetry"
+        android:contentDescription="@string/dd" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="62dp"
+        android:paddingTop="220dp"
+        android:text="@string/_34_78"
+        android:textColor="#FF7269"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+</androidx.cardview.widget.CardView>
